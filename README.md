@@ -2,11 +2,11 @@ Route Resilience: Occlusion-Robust Road Extraction & Criticality Analysis
 
 ISRO Hackathon 2026 | Transforming raw satellite imagery into mathematically routable urban networks for disaster response and urban planning.
 
-🛑 The Problem
+## 🛑 The Problem
 
 During natural disasters, emergency responders rely on continuous, routable road networks. However, standard satellite mapping fails when roads are occluded by tree canopies, shadows, or heavy cloud cover. Furthermore, traditional AI segmentation outputs static pixels, which are mathematically useless for routing algorithms (like Dijkstra's) or vulnerability analysis.
 
-💡 My Solution
+##💡 My Solution
 
 Route Resilience is a full-stack geospatial intelligence platform that shifts satellite mapping from passive image processing to active mathematical simulation.
 
@@ -18,8 +18,8 @@ Simulation (High-Performance Compute): A custom C++ backend executes Brandes' al
 
 Action (Interactive Dashboard): Urban planners can simulate real-time disasters (e.g., flash floods, bridge collapses) via a Streamlit/Folium dashboard and instantly visualize the cascading vulnerabilities across the city.
 
-🛠️ Technology Stack
-
+## 🛠️ Technology Stack
+```
 High-Performance Backend: C++, PyBind11, OpenMP
 
 Deep Learning: PyTorch, Torchvision
@@ -29,7 +29,7 @@ Geospatial Processing: Rasterio, Folium, Skimage
 Graph Theory: NetworkX
 
 Frontend: Streamlit, Streamlit-Folium
-
+```
 
 
 ## 📂 Project Structure
