@@ -6,7 +6,7 @@ ISRO Hackathon 2026 | Transforming raw satellite imagery into mathematically rou
 
 During natural disasters, emergency responders rely on continuous, routable road networks. However, standard satellite mapping fails when roads are occluded by tree canopies, shadows, or heavy cloud cover. Furthermore, traditional AI segmentation outputs static pixels, which are mathematically useless for routing algorithms (like Dijkstra's) or vulnerability analysis.
 
-##💡 My Solution
+## 💡 My Solution
 
 Route Resilience is a full-stack geospatial intelligence platform that shifts satellite mapping from passive image processing to active mathematical simulation.
 
