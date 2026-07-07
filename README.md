@@ -32,11 +32,12 @@ Frontend: Streamlit, Streamlit-Folium
 
 
 
-📂 Project Structure
-
+## 📂 Project Structure
+```text
 ├── dashboard.py                  # Main Streamlit application & pipeline controller
 ├── road_segmentation_model.py    # PyTorch U-Net & ResNet-34 architecture
 ├── BetweennessCentrality.cpp     # High-performance C++ Graph Engine
 ├── bridge.py                     # AI-to-Graph conversion logic (Testing/Standalone)
 ├── model.pth                     # Trained PyTorch weights (Download required)
 └── README.md                     # Project documentation
+```
